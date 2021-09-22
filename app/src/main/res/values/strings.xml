@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MADProject</string>
+    <string name="foodname">Food name</string>
+    <string name="price">Price</string>
+    <string name="shopname">Shop name</string>
+    <string name="location">Location</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="food">FOOD</string>
+
+</resources>

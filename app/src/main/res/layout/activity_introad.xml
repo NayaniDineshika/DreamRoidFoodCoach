@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Introad"
+    android:background="#0A0B0A"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar10"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Your advertisement"
+        app:titleMarginStart="130dp"
+        app:titleTextColor="@color/black" />
+
+    <RelativeLayout
+
+        android:id="@+id/relativeLayout14"
+        android:layout_width="304dp"
+        android:layout_height="179dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/agebackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar10">
+
+        <TextView
+            android:id="@+id/string1"
+            android:layout_width="257dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:text="Post your free AD  "
+            android:textColor="#EACB8B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="49dp"
+            android:layout_marginRight="49dp"
+            android:layout_marginBottom="53dp"
+            android:text="click here >>"
+            android:textColor="#402929"
+            android:textSize="16sp"
+            app:backgroundTint="#F4D26B" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/relativeLayout15"
+        android:layout_width="319dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/menbackground"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout14">
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="-2dp"
+            app:srcCompat="@drawable/avcadoo" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="129dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginRight="39dp"
+            android:layout_marginBottom="12dp"
+            android:layout_toEndOf="@+id/imageView18"
+            android:layout_toRightOf="@+id/imageView18"
+            android:text="Delete"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:backgroundTint="#267817" />
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="319dp"
+        android:layout_height="74dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/menbackground"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout15"
+        app:layout_constraintVertical_bias="0.318">
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="129dp"
+            android:layout_height="51dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginLeft="66dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginRight="46dp"
+            android:layout_marginBottom="8dp"
+            android:text="Delete"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:backgroundTint="#267817" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="133dp"
+            android:layout_height="72dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginRight="-1dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toStartOf="@+id/button9"
+            android:layout_toLeftOf="@+id/button9"
+            app:srcCompat="@drawable/salad" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="55dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="@+id/toolbar10"
+        app:layout_constraintTop_toTopOf="@+id/toolbar10"
+        app:layout_constraintVertical_bias="0.368"
+        app:srcCompat="@drawable/back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
