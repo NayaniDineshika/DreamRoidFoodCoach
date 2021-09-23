@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0B0B"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="192dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="119dp"
+        android:text="Fride Rice"
+        app:backgroundTint="#AEA5A5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.986"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginLeft="196dp"
+        android:layout_marginTop="300dp"
+        android:text="Cheese koththu"
+        app:backgroundTint="#AEA5A5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="825dp"
+        android:layout_marginEnd="469dp"
+        android:layout_marginRight="469dp"
+        app:barrierDirection="top"
+        app:constraint_referenced_ids="textView4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="511dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="680dp"
+        android:background="#4CAF50"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/topic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="91dp"
+        android:layout_marginLeft="91dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
+        android:layout_marginBottom="702dp"
+        android:text="Vegetariant Recipe"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="174dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/img"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3"
+        tools:layout_editor_absoluteX="16dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="167dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="337dp"
+        android:layout_marginBottom="335dp"
+        android:background="@drawable/images__1_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.712">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="267dp"
+        android:layout_height="64dp"
+        android:inputType="@string/Vegrecipe_add"
+        android:text="Add recipe"
+        app:backgroundTint="#888037"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="404dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="52dp"
+        android:background="#424242"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="4dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="69dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="668dp"
+        android:layout_marginEnd="295dp"
+        android:layout_marginRight="295dp"
+        android:background="#00FFFFFF"
+        android:text="Button"
+        app:backgroundTint="#00FFFFFF"
+        app:icon="@drawable/ic_baseline_home_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="75dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="662dp"
+        android:background="#00FFFFFF"
+        android:text="Button"
+        app:backgroundTint="#00FFFFFF"
+        app:icon="@drawable/ic_baseline_shopping_bag_24"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="161dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="65dp"
+        android:layout_height="49dp"
+        android:background="#00FFFFFF"
+        android:text="Button"
+        app:backgroundTint="#05FFFFFF"
+        app:icon="@drawable/ic_baseline_account_circle_24"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="668dp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="61dp"
+        android:layout_height="54dp"
+        android:background="#05FFFFFF"
+        android:text="Button"
+        app:backgroundTint="#00FFFFFF"
+        app:icon="@drawable/ic_baseline_arrow_back_24"
+        app:iconSize="40dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

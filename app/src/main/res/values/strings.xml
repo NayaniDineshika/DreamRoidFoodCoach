@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Food Coach</string>
+    <string name="topic">text</string>
+    <string name="AddNonVEG_name">Food Name</string>
+    <string name="AddNonVEG_des">Description</string>
+    <string name="AddNonVEG_ingra">Ingradient</string>
+    <string name="AddNonVEG_make">How to make</string>
+    <string name="AddVeg_ingra">Ingradient</string>
+    <string name="AddVeg_name">Food Name</string>
+    <string name="AddVeg_des">Description</string>
+    <string name="AddVeg_make">How to make</string>
+    <string name="Add_veg">text</string>
+    <string name="Add_veg_des">text</string>
+    <string name="AddnonVeg_name">text</string>
+    <string name="AddnonVeg_des">text</string>
+    <string name="AddnonVeg_ing">text</string>
+    <string name="AddnonVeg_make">text</string>
+    <string name="Addveg_recipe_photo">text</string>
+    <string name="AddVegRecipe_post">text</string>
+    <string name="Vegrecipe_add">text</string>
+    <string name="NonVeg_add">text</string>
+</resources>
