@@ -17,7 +17,10 @@ public class Notification extends AppCompatActivity {
     RadioGroup rg;
     RadioButton rb;
     Switch aSwitch;
-    private Button button10;
+    private Button btnRate;
+    private Button btnAbout;
+    private Button btnPolicy2;
+    private Button btnRatings;
 
 
     @Override
@@ -25,11 +28,35 @@ public class Notification extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notification);
 
-        button10 = (Button) findViewById(R.id.button10);
-        button10.setOnClickListener(new View.OnClickListener() {
+        btnRate = (Button) findViewById(R.id.btnRate);
+        btnRate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openFeedback();
+            }
+        });
+
+        btnPolicy2 = (Button) findViewById(R.id.btnPolicy2);
+        btnPolicy2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openPolicy();
+            }
+        });
+
+        btnAbout = (Button) findViewById(R.id.btnAbout);
+        btnAbout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openAboutUs();
+            }
+        });
+
+        btnRatings = (Button) findViewById(R.id.btnRatings);
+        btnRatings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               openRate();
             }
         });
 
@@ -49,13 +76,24 @@ public class Notification extends AppCompatActivity {
            }
        });
 
+    }
 
-
-
-
+    public void openRate(){
+        Intent intent= new Intent(this, Feedback.class);
+        startActivity(intent);
     }
     public void openFeedback(){
-        Intent intent= new Intent(this, Feedback.class);
+        Intent intent= new Intent(this, Rate.class);
+        startActivity(intent);
+    }
+
+    public void openAboutUs(){
+        Intent intent= new Intent(this, AboutUs.class);
+        startActivity(intent);
+    }
+
+    public void openPolicy(){
+        Intent intent= new Intent(this, PrivacyPolicy.class);
         startActivity(intent);
     }
 
