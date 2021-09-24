@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Select_gender">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="395dp"
+        android:layout_height="285dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="195dp"
+            android:text="Gender"
+            android:textColor="#FFFEFE"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/btn_6to17"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btn_1to5"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:hint="@string/btn_female"
+            android:text="female"
+            android:textColor="#090909"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="#CDDC39"
+            app:icon="@drawable/f"
+            app:iconSize="30dp"
+            app:iconTintMode="multiply" />
+
+        <Button
+            android:id="@+id/btn_1to5"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="40dp"
+            android:hint="@string/btn_male"
+            android:text="male"
+            android:textAlignment="center"
+            android:textColor="#0B0A0A"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="#CDDC39"
+            app:icon="@drawable/m"
+            app:iconSize="30dp"
+            app:iconTintMode="multiply" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="403dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
+        app:layout_constraintVertical_bias="1.0"/>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="387dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="16dp"
+        android:background="#4CAF50"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
+        app:title="Select Gender"
+        app:titleMarginStart="90dp"
+        app:titleTextColor="#000000" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

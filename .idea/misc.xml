@@ -3,15 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/acer/DreamRoidFoodCoach/app/src/main/res/layout-v31/activity_notification.xml" value="0.23854166666666668" />
-        <entry key="..\:/Users/acer/DreamRoidFoodCoach/app/src/main/res/layout/activity_about_us.xml" value="0.24010416666666667" />
-        <entry key="..\:/Users/acer/DreamRoidFoodCoach/app/src/main/res/layout/activity_bmi_calculator.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/acer/DreamRoidFoodCoach/app/src/main/res/layout/activity_feedback.xml" value="0.1" />
-        <entry key="..\:/Users/acer/DreamRoidFoodCoach/app/src/main/res/layout/activity_interface1.xml" value="0.23854166666666668" />
-        <entry key="..\:/Users/acer/DreamRoidFoodCoach/app/src/main/res/layout/activity_main2.xml" value="0.23854166666666668" />
-        <entry key="..\:/Users/acer/DreamRoidFoodCoach/app/src/main/res/layout/activity_notification.xml" value="0.25" />
-        <entry key="..\:/Users/acer/DreamRoidFoodCoach/app/src/main/res/layout/activity_privacy_policy.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/acer/DreamRoidFoodCoach/app/src/main/res/layout/activity_rate.xml" value="0.23854166666666668" />
+
       </map>
     </option>
   </component>
