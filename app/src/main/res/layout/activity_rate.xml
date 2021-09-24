@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Rate"
-    android:background="@color/black">
+    android:background="@color/black"
+    tools:context=".Rate">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar10"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:title="Feedback"
-        app:titleMarginStart="140dp"
+        app:titleMarginStart="160dp"
         app:titleTextColor="@color/black" />
 
     <TextView
@@ -28,8 +28,8 @@
         android:layout_width="299dp"
         android:layout_height="50dp"
         android:layout_marginTop="80dp"
-        android:text="Rate Food Coach"
-        android:background="#4145504B"
+        android:background="#41000000"
+        android:text="Feedback Food Coach"
         android:textAlignment="center"
         android:textColor="#27D322"
         android:textSize="30sp"
@@ -41,7 +41,7 @@
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your Rate"
+        android:text="Your feedback"
         android:textColor="#AFE3B0"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -63,80 +63,100 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar10"
         app:layout_constraintVertical_bias="0.427">
 
-        <TextView
-            android:id="@+id/textView25"
-            android:layout_width="165dp"
-            android:layout_height="37dp"
+        <EditText
+            android:id="@+id/TextFeedbackReview"
+            android:layout_width="316dp"
+            android:layout_height="103dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="161dp"
-            android:layout_marginTop="22dp"
-            android:layout_marginEnd="22dp"
-            android:layout_marginBottom="230dp"
-            android:text="User"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="174dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="12dp"
+            android:background="#D5F4F6F5"
+            android:ems="10"
+            android:hint="Enter your Review"
+            android:inputType="textPersonName"
+            android:textColor="#14201E" />
 
-        <TextView
-            android:id="@+id/textView26"
-            android:layout_width="276dp"
-            android:layout_height="123dp"
+        <EditText
+            android:id="@+id/TxtFeedbackID"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="36dp"
-            android:layout_marginTop="145dp"
-            android:layout_marginEnd="36dp"
-            android:layout_marginBottom="21dp"
-            android:text="User Review"
-            android:textColor="@color/white"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="216dp"
+            android:background="#D5F4F6F5"
+            android:ems="10"
+            android:hint="Enter Your ID No"
+            android:inputType="textPersonName"
+            android:textColor="#14201E" />
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="103dp"
-            android:layout_height="74dp"
+        <EditText
+            android:id="@+id/textFeedbackName"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="13dp"
-            android:layout_marginTop="13dp"
-            android:layout_marginEnd="232dp"
-            android:layout_marginBottom="202dp"
-            app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="143dp"
+            android:background="#D5F4F6F5"
+            android:ems="10"
+            android:hint="Enter Name"
+            android:inputType="textPersonName"
+            android:textColor="#14201E"
+            tools:ignore="TouchTargetSizeCheck" />
     </RelativeLayout>
 
     <Button
-        android:id="@+id/button11"
-        android:layout_width="304dp"
-        android:layout_height="62dp"
-        android:layout_marginBottom="132dp"
-        android:text="Edit your Review"
+        android:id="@+id/btnFeedbackEdit"
+        android:layout_width="302dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="72dp"
         android:backgroundTint="#D50A754A"
+        android:text="Edit your Review"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button12"
-        android:layout_width="299dp"
-        android:layout_height="57dp"
+        android:id="@+id/btnFeedBackAdd"
+        android:layout_width="302dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="140dp"
+        android:backgroundTint="#D50A754A"
+        android:text="ADD your Review"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnFeedbackDlt"
+        android:layout_width="300dp"
+        android:layout_height="62dp"
         android:backgroundTint="#D50A754A"
         android:text="Delete Your Review"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout8"
-        app:layout_constraintVertical_bias="0.628" />
+        app:layout_constraintVertical_bias="0.94" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

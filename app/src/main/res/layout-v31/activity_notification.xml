@@ -211,7 +211,7 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/btnPolicy"
+            android:id="@+id/btnRatings"
             android:layout_width="288dp"
             android:layout_height="51dp"
             android:layout_alignParentStart="true"
