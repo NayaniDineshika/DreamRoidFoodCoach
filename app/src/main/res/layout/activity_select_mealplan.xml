@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Select_mealplan">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        tools:context=".Select_gender"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="395dp"
+            android:layout_height="285dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.375"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="264dp"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/btn_6to17"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/btn_1to5"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="50dp"
+                android:hint="@string/btn_mymealplan"
+                android:text="My meal plan"
+                android:textColor="#090909"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:backgroundTint="#CDDC39"
+                app:iconSize="30dp"
+                app:iconTintMode="multiply" />
+
+            <Button
+                android:id="@+id/btn_1to5"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="50dp"
+                android:hint="@string/btn_addmealplan"
+                android:text="Add meal plan"
+                android:textAlignment="center"
+                android:textColor="#0B0A0A"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:backgroundTint="#CDDC39"
+                app:iconSize="30dp"
+                app:iconTintMode="multiply"
+                tools:ignore="UnknownIdInLayout" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="416dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="184dp"
+            android:background="@color/cardview_dark_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.727"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
+            app:layout_constraintVertical_bias="1.0">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="49dp"
+                android:layout_height="53dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="15dp"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/ic_home_24"
+                tools:ignore="VectorDrawableCompat" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="112dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="15dp"
+                android:layout_toEndOf="@+id/imageButton2"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/ic_shopping_bag_24"
+                tools:ignore="VectorDrawableCompat" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="112dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="15dp"
+                android:layout_toEndOf="@+id/imageButton3"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/ic_account_circle_24"
+                tools:ignore="VectorDrawableCompat" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.016"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+            tools:ignore="VectorDrawableCompat" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
