@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Notification">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar7"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Settings"
+        app:titleMarginStart="140dp"
+        app:titleTextColor="@color/black" />
+
+    <RelativeLayout
+        android:id="@+id/relativesettings"
+        android:layout_width="326dp"
+        android:layout_height="594dp"
+        android:background="#97515353"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar7">
+
+        <TextView
+            android:id="@+id/textGeneral"
+            android:layout_width="126dp"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="188dp"
+            android:layout_marginBottom="541dp"
+            android:text="General"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar7"
+            app:layout_constraintVertical_bias="0.077"
+            tools:ignore="HardcodedText,NotSibling" />
+
+        <RelativeLayout
+            android:id="@+id/relativevege"
+            android:layout_width="343dp"
+            android:layout_height="166dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginTop="57dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="330dp"
+            android:background="#81707573"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar8"
+            app:layout_constraintVertical_bias="0.226"
+            tools:ignore="UnknownId">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="165dp"
+                android:text="Dietary Restrictions"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                tools:ignore="HardcodedText" />
+
+            <RadioGroup
+                android:id="@+id/Rgroup"
+                android:layout_width="269dp"
+                android:layout_height="145dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="51dp"
+                android:layout_marginEnd="29dp"
+                android:layout_marginBottom="11dp">
+
+                <RadioButton
+                    android:id="@+id/radioButtonVegetarian"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:onClick="click"
+                    android:text="Vegetarian"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonNonVeg"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:onClick="click"
+                    android:text="None Vegetarian"
+                    android:textSize="20sp" />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="326dp"
+            android:layout_height="81dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginTop="267dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="246dp"
+            android:background="#81707573">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="154dp"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="173dp"
+                android:layout_marginBottom="17dp"
+                android:text="Notification"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                tools:ignore="HardcodedText" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="174dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginBottom="20dp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnFeedback"
+            android:layout_width="288dp"
+            android:layout_height="51dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="374dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="169dp"
+            android:background="@android:color/system_neutral1_700"
+            android:text="Feedback"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="288dp"
+            android:layout_height="51dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="432dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="111dp"
+            android:background="@android:color/system_neutral1_700"
+            android:text="About Us"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnPolicy"
+            android:layout_width="288dp"
+            android:layout_height="51dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="491dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginBottom="52dp"
+            android:background="@android:color/system_neutral1_700"
+            android:text="Privacy Policy"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
