@@ -19,4 +19,12 @@
     <string name="AddVegRecipe_post">text</string>
     <string name="Vegrecipe_add">text</string>
     <string name="NonVeg_add">text</string>
+    <string name="foodname">Food name</string>
+    <string name="price">Price</string>
+    <string name="shopname">Shop name</string>
+    <string name="location">Location</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="food">FOOD</string>
+
 </resources>

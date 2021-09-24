@@ -9,23 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodCoach">
-        <activity
-            android:name=".Rate"
-            android:exported="true" />
-        <activity
-            android:name=".PrivacyPolicy"
-            android:exported="true" />
-        <activity
-            android:name=".AboutUs"
-            android:exported="true" />
-        <activity
-            android:name=".Feedback"
-            android:exported="true" />
-        <activity android:name=".BmiCalculator" />
-        <activity android:name=".MainActivity2" />
-        <activity android:name=".Interface1" />
-        <activity
-            android:name=".Notification"
+
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
