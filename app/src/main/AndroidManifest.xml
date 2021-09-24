@@ -10,38 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodCoach">
 
-        <activity android:name=".MainActivity6"></activity>
-        <activity android:name=".MainActivity5" />
-        <activity android:name=".MainActivity4" />
-        <activity android:name=".MainActivity3" />
-        <activity android:name=".MainActivity2" />
-        <activity android:name=".Interface1" />
-
-
-        <activity
-            android:name=".Select_mealplan"
-            android:exported="true" />
-        <activity
-            android:name=".View_meal"
-            android:exported="true" />
-        <activity
-            android:name=".Meal_plan"
-            android:exported="true" />
-        <activity
-            android:name=".Add_meal"
-            android:exported="true" />
-        <activity
-            android:name=".Select_age"
-            android:exported="true" />
-        <activity
-            android:name=".Select_gender"
-            android:exported="true" />
-        <activity
-            android:name=".Profile_page"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
