@@ -2,6 +2,7 @@ package com.example.foodcoach;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -104,4 +105,7 @@ public class Notification extends AppCompatActivity {
 
         Toast.makeText(getBaseContext(),rb.getText(),Toast.LENGTH_LONG).show();
     }
+
+
+
 }

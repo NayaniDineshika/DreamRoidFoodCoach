@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Yoga"
+    android:background="@color/black">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="499dp"
+        android:background="#4CAF50"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:title="Fitness"
+        app:titleMarginStart="140dp"
+        app:titleTextColor="@color/black" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout12"
+        android:layout_width="413dp"
+        android:layout_height="104dp"
+        android:background="#65313333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.781">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="275dp"
+            app:srcCompat="@drawable/easy_pose"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/btneasy_pose"
+            android:layout_width="246dp"
+            android:layout_height="72dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="152dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="17dp"
+            android:text="@string/easy_pose"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:backgroundTint="#272B29" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout15"
+        android:layout_width="413dp"
+        android:layout_height="100dp"
+        android:background="#65313333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206">
+
+        <Button
+            android:id="@+id/btnWarriorPose"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="18dp"
+            android:text="@string/warrior_pose"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:backgroundTint="#272B29" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="275dp"
+            app:srcCompat="@drawable/warrior_pose"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout16"
+        android:layout_width="409dp"
+        android:layout_height="100dp"
+        android:background="#65313333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.397">
+
+        <Button
+            android:id="@+id/btnUpwardBow"
+            android:layout_width="246dp"
+            android:layout_height="72dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="152dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="17dp"
+            android:text="@string/upward_bow"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:backgroundTint="#272B29" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="275dp"
+            app:srcCompat="@drawable/upward_bow"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout11"
+        android:layout_width="410dp"
+        android:layout_height="100dp"
+        android:background="#65313333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="275dp"
+            app:srcCompat="@drawable/low_lunge"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/btnLowLunge"
+            android:layout_width="239dp"
+            android:layout_height="71dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="18dp"
+            android:text="@string/low_lunge"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:backgroundTint="#272B29" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout14"
+        android:layout_width="415dp"
+        android:layout_height="100dp"
+        android:background="#65313333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.583"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp">
+
+        <Button
+            android:id="@+id/btnHalfPigeon"
+            android:layout_width="246dp"
+            android:layout_height="72dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="152dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="17dp"
+            android:text="@string/half_pigeon"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:backgroundTint="#272B29" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="275dp"
+            app:srcCompat="@drawable/half_pigeon"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="       Yoga List"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101"
+        tools:ignore="HardcodedText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
