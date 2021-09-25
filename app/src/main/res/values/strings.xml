@@ -45,4 +45,5 @@
     <string name="tv_lunch">lunch</string>
     <string name="tv_dinner">dinner</string>
     <string name="tv_tea">tea</string>
+    <string name="breakfast">Breakfast</string>
 </resources>
