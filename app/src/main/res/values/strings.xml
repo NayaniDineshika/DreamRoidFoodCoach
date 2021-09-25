@@ -19,18 +19,6 @@
     <string name="AddVegRecipe_post">text</string>
     <string name="Vegrecipe_add">text</string>
     <string name="NonVeg_add">text</string>
-    <string name="foodname">Food name</string>
-    <string name="price">Price</string>
 
-
-
-    <string name="name">Name</string>
-    <string name="food">FOOD</string>
-    <string name="fooditems" />
-    <string name="prices">prices</string>
-    <string name="shopname">Shop name</string>
-    <string name="location">Location</string>
-    <string name="phonenumber">Phone Number</string>
-    <string name="fooditem">Food item</string>
 
 </resources>
