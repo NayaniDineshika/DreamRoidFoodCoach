@@ -14,12 +14,10 @@
         android:background="#4CAF50"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
         app:title="Add your Advertisement"
         app:titleMarginStart="100dp"
         app:titleTextColor="@color/black" />
@@ -35,14 +33,15 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar6">
 
         <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/fooditem"
             android:layout_width="364dp"
             android:layout_height="match_parent"
             android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
             android:layout_marginEnd="15dp"
             android:layout_marginRight="15dp"
-            android:hint="Food Item"
-            android:inputType="@string/foodname" />
+            android:hint="@string/fooditem" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -55,14 +54,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/price"
             android:layout_width="364dp"
             android:layout_height="match_parent"
             android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
             android:layout_marginEnd="15dp"
             android:layout_marginRight="15dp"
-            android:hint="Price"
-            android:inputType="@string/price" />
+            android:hint="@string/prices" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -75,14 +74,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/shopname"
             android:layout_width="364dp"
             android:layout_height="match_parent"
             android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
             android:layout_marginEnd="15dp"
             android:layout_marginRight="15dp"
-            android:hint="Shop Name"
-            android:inputType="@string/shopname" />
+            android:hint="@string/shopname" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -95,14 +94,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout3">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/location"
             android:layout_width="364dp"
             android:layout_height="match_parent"
             android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
             android:layout_marginEnd="15dp"
             android:layout_marginRight="15dp"
-            android:hint="Location"
-            android:inputType="@string/location" />
+            android:hint="@string/location" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -115,14 +114,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout4">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phonenumber"
             android:layout_width="364dp"
             android:layout_height="match_parent"
             android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
             android:layout_marginEnd="15dp"
             android:layout_marginRight="15dp"
-            android:hint="Phone Number"
-            android:inputType="@string/phone" />
+            android:hint="@string/phonenumber" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <RelativeLayout
@@ -138,41 +137,34 @@
 
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout5">
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatingActionButton2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="250dp"
+            android:layout_height="44dp"
             android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="81dp"
-            android:layout_marginLeft="81dp"
-            android:layout_marginTop="64dp"
-            android:layout_marginEnd="81dp"
-            android:layout_marginRight="81dp"
-            android:layout_marginBottom="6dp"
-            android:clickable="true"
-            app:srcCompat="@drawable/ic_baseline_exposure_plus_1_24"
-            tools:ignore="VectorDrawableCompat" />
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="69dp"
+            android:layout_marginEnd="71dp"
+            android:layout_marginBottom="13dp"
+            app:srcCompat="@drawable/greenplus" />
 
-        <TextView
-            android:id="@+id/textView19"
-            android:layout_width="124dp"
-            android:layout_height="36dp"
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="142dp"
+            android:layout_height="111dp"
+            android:layout_above="@+id/imageView2"
             android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginStart="55dp"
-            android:layout_marginLeft="55dp"
-            android:layout_marginTop="21dp"
-            android:layout_marginEnd="39dp"
-            android:layout_marginRight="39dp"
-            android:text="Upload your image" />
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="-52dp"
+            app:backgroundTint="#6D4CAF50"
+            android:text="Add image" />
     </RelativeLayout>
 
     <Button
